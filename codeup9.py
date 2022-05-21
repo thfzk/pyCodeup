@@ -1,4 +1,4 @@
-#9. 기초-비트단위 논리연산
+#9 기초-비트단위 논리연산
 '''
 [59]
 입력 된 정수를 비트단위로 참/거짓을 바꾼 후 정수로 출력해보자.
@@ -229,7 +229,7 @@ print(answer)
 coordinates = [[1,4], [3,4], [3,10]]
 
 result = []
-result.append( coordinates[0][0] ^ coordinates[1][0] ^ coordinates[2][0] )
-result.append( coordinates[0][1] ^ coordinates[1][1] ^ coordinates[2][1] )
+result.append(coordinates[0][0] ^ coordinates[1][0] ^ coordinates[2][0])
+result.append(coordinates[0][1] ^ coordinates[1][1] ^ coordinates[2][1])
 
 print(result)
