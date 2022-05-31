@@ -1,3 +1,3 @@
-str = "15.79"
-float = float(str)
-print(float, type(float))
+string = 'abcd'
+string.replace('b', 'B')
+print(string)
