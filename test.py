@@ -1,3 +1,2 @@
-string = 'abcd'
-string.replace('b', 'B')
-print(string)
+file_name = "보고서.xlsx"
+file_name.endswith('xlsx')
