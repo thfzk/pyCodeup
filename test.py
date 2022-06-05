@@ -1,2 +1,5 @@
-file_name = "보고서.xlsx"
-file_name.endswith('xlsx')
+scap = 0
+for i in range(int(input())):
+    a, b = map(int, input() .split())
+    scap += b % a
+print(scap)
